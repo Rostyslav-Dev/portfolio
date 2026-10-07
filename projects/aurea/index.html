@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#24271f">
+  <title>AURÉA — Мистецтво дотику</title>
+  <meta name="description" content="AURÉA — простір тиші, усвідомленого дотику та глибокого відпочинку. Знайдіть свій ритуал повернення до себе.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%2324271f'/%3E%3Cpath d='M17 47L32 15L47 47M23 35H41' fill='none' stroke='%23e8ddc7' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="preload" href="assets/stone.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="style.css?v=6">
+  <script defer src="js/scene-renderer.js?v=6"></script>
+  <script defer src="js/main.js?v=6"></script>
+<meta name="robots" content="noindex, follow"></head>
+<body>
+  <a class="skip-link" href="#rituals">Перейти до ритуалів</a>
+  <header class="header">
+    <a class="brand" href="#top" aria-label="AURÉA — на головну">AURÉA<span>МАСАЖ ТА ВІДНОВЛЕННЯ</span></a>
+    <nav aria-label="Основна навігація"><a href="#philosophy">Філософія</a><a href="#space" data-chapter="1">Простір</a><a href="#rituals">Ритуали</a></nav>
+    <a class="header-cta" href="#rituals">Обрати ритуал <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="top">
+    <section class="journey" id="journey" aria-label="Подорож простором AURÉA">
+      <div class="stage">
+        <div class="scene-fallback" aria-hidden="true"><img src="assets/stone.webp" alt="" fetchpriority="high"><img src="assets/lounge.webp" alt="" loading="eager"><img src="assets/treatment.webp" alt="" loading="eager"></div>
+        <canvas id="journey-canvas" aria-hidden="true"></canvas><div class="scrim"></div>
+        <div class="stage-top"><span>ПРОСТІР ВНУТРІШНЬОГО БАЛАНСУ</span><span class="stage-edition">МИСТЕЦТВО СПОВІЛЬНЮВАТИСЯ</span></div>
+        <div class="scene-copy active" data-copy="0">
+          <p class="eyebrow">ДОТИК ДО СЕБЕ</p>
+          <h1>Мистецтво<br>бути <em>в моменті.</em></h1>
+          <p class="scene-description">Залиште зовнішній світ за порогом.<br>Тут усе починається з вашого видиху.</p>
+          <a class="round-link" href="#space" data-chapter="1"><span class="circle" aria-hidden="true">↓</span>Почати занурення</a>
+        </div>
+        <div class="scene-copy" data-copy="1" aria-hidden="true" inert>
+          <p class="eyebrow">ПРОСТІР ТИШІ</p>
+          <h2>Світ стає<br><em>тихішим.</em></h2>
+          <p class="scene-description">Тепле світло. Природні фактури.<br>Місце, де можна просто бути.</p>
+          <a class="round-link" href="#touch" data-chapter="2"><span class="circle" aria-hidden="true">↓</span>Рушити далі</a>
+        </div>
+        <div class="scene-copy" data-copy="2" aria-hidden="true" inert>
+          <p class="eyebrow">ВАШ ОСОБИСТИЙ РИТУАЛ</p>
+          <h2>Повернутися<br><em>до відчуттів.</em></h2>
+          <p class="scene-description">Турбота, якій не потрібні слова.<br>Увага до тіла. Час для себе.</p>
+          <a class="round-link" href="#rituals"><span class="circle" aria-hidden="true">↗</span>Знайти свій ритуал</a>
+        </div>
+        <div class="scene-side" aria-hidden="true"><span id="scene-number">01</span><i></i><span>03</span></div>
+        <div class="stage-bottom">
+          <div class="scroll-hint"><span class="scroll-line"></span><span>Гортайте повільно<br><small>Відчуйте простір</small></span></div>
+          <nav class="chapters" aria-label="Етапи занурення">
+            <a href="#top" data-chapter="0" aria-current="step"><span>01</span> Стихія</a><a href="#space" data-chapter="1"><span>02</span> Тиша</a><a href="#touch" data-chapter="2"><span>03</span> Дотик</a>
+          </nav>
+          <a class="skip-journey" href="#philosophy" aria-label="Пропустити занурення">Пропустити <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="journey-progress" aria-hidden="true"><span></span></div>
+      </div>
+      <span class="chapter-anchor" id="space"></span><span class="chapter-anchor" id="touch"></span>
+    </section>
+    <section class="philosophy editorial-philosophy section-pad" id="philosophy">
+      <div class="editorial-heading reveal"><span class="eyebrow">01 / ФІЛОСОФІЯ AURÉA</span><span class="editorial-note">Менше зовнішнього. Більше себе.</span></div>
+      <figure class="philosophy-portrait reveal"><div class="portrait-frame"><img src="assets/lounge.webp" alt="Тепле світло в арковому проході до тихої зони відпочинку" loading="lazy" width="1672" height="941"></div><figcaption><span>ПРОСТІР, ЩО ОБІЙМАЄ</span><span>01 — 03</span></figcaption><span class="portrait-seal" aria-hidden="true">A</span></figure>
+      <div class="philosophy-content reveal"><p class="eyebrow">ДОЗВОЛЬТЕ СОБІ ВІДЧУВАТИ</p><h2>Вам не потрібно<br>нічого <em>встигати.</em></h2><div class="philosophy-bottom"><p>Бути на зв’язку. Тримати темп. Думати про завтра. Залиште це за дверима — хоча б на мить.</p><p>У AURÉA є лише тепле світло, уважний дотик і час, який належить вам. Тут можна видихнути.</p></div><div class="philosophy-signoff"><span class="signature">Розкіш бути собою</span><span aria-hidden="true">↘</span></div></div>
+    </section>
+    <section class="rituals editorial-rituals section-pad" id="rituals">
+      <div class="rituals-heading reveal"><div><p class="eyebrow">02 / КОЛЕКЦІЯ РИТУАЛІВ</p><h2>Чого вам хочеться<br><em>саме зараз?</em></h2></div><p>Прислухайтеся до себе.<br>Ваше відчуття — найкращий орієнтир.</p></div>
+      <div class="ritual-gallery reveal" aria-label="Атмосфера обраного ритуалу">
+        <div class="ritual-visual active" data-ritual-visual="0"><img src="assets/lounge.webp" alt="Затишна релакс-зона для спокійного відпочинку" loading="lazy" width="1672" height="941"></div>
+        <div class="ritual-visual" data-ritual-visual="1" aria-hidden="true"><img src="assets/treatment.webp" alt="Масажний стіл із натуральним льоном у теплому світлі" loading="lazy" width="1672" height="941"></div>
+        <div class="ritual-visual" data-ritual-visual="2" aria-hidden="true"><img src="assets/stone.webp" alt="Гладкий природний камінь у бурштинових відблисках олії" loading="lazy" width="1672" height="941"></div>
+        <div class="gallery-caption"><span id="ritual-image-number">01 / 03</span><span id="ritual-image-caption">Дозвольте собі сповільнитися</span></div>
+      </div>
+      <div class="ritual-list reveal">
+        <details open data-ritual="0"><summary><span class="ritual-number">01</span><div><span class="ritual-tag">ХОЧЕТЬСЯ СПОКОЮ</span><h3>Тиха течія</h3><span class="ritual-sub">Розслаблювальний масаж</span></div><span class="expand" aria-hidden="true"></span></summary><div class="ritual-description"><p>Плавні, огортальні рухи та м’який ритм. Ритуал для тих, хто хоче відпустити метушню дня й зануритися у спокій.</p><div class="ritual-notes"><span>М’який дотик</span><span>Аромат олії</span></div></div></details>
+        <details data-ritual="1"><summary><span class="ritual-number">02</span><div><span class="ritual-tag">ХОЧЕТЬСЯ ВІДЧУТИ ТІЛО</span><h3>Точка рівноваги</h3><span class="ritual-sub">Глибокий масаж</span></div><span class="expand" aria-hidden="true"></span></summary><div class="ritual-description"><p>Уважна робота з м’язами в комфортному для вас темпі. Інтенсивність дотику обираємо індивідуально — у діалозі з майстром.</p><div class="ritual-notes"><span>Індивідуальний підхід</span><span>Усвідомлений ритм</span></div></div></details>
+        <details data-ritual="2"><summary><span class="ritual-number">03</span><div><span class="ritual-tag">ХОЧЕТЬСЯ ТЕПЛА</span><h3>Тепла стихія</h3><span class="ritual-sub">Ритуал із теплими каменями</span></div><span class="expand" aria-hidden="true"></span></summary><div class="ritual-description"><p>Тепло гладких каменів поєднується з м’якими масажними рухами. Неквапливий, чуттєвий ритуал, у якому хочеться затриматися.</p><div class="ritual-notes"><span>Природні фактури</span><span>Зігрівальне тепло</span></div></div></details>
+        <p class="ritual-footnote">Кожен ритуал починається з розмови про ваші побажання.</p>
+      </div>
+    </section>
+    <section class="closing editorial-closing"><img src="assets/treatment.webp" alt="Сонячні промені в тихій масажній кімнаті" loading="lazy" width="1672" height="941"><div class="closing-top"><span>03 / ЧАС ДЛЯ СЕБЕ</span><span>AURÉA</span></div><div class="closing-content reveal"><p class="eyebrow">НЕ ВІДКЛАДАЙТЕ СЕБЕ НА ПОТІМ</p><h2>Світ зачекає.<br><em>Ця мить — ваша.</em></h2><a href="#rituals" class="closing-cta">Обрати свій ритуал <span aria-hidden="true">↗</span></a></div><div class="closing-bottom"><span>Вдихніть спокій.</span><span>Видихніть зайве.</span></div></section>
+  </main>
+  <footer class="editorial-footer"><div class="footer-top"><p>Мистецтво дотику.<br>Мистецтво бути собою.</p><nav aria-label="Навігація внизу сторінки"><a href="#philosophy">Філософія</a><a href="#rituals">Ритуали</a><a href="#top">На початок ↑</a></nav></div><a href="#top" class="footer-wordmark" aria-label="AURÉA — на початок">AURÉA</a><div class="footer-bottom"><span>МАСАЖ ТА ВІДНОВЛЕННЯ</span><span>АВТОРСЬКА КОНЦЕПЦІЯ МАСАЖНОГО ПРОСТОРУ</span></div></footer>
+</body>
+</html>

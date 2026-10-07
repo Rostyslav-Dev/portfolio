@@ -1,0 +1,20 @@
+PROJECT ASSETS
+
+assets/hero.png — AI-generated editorial wellness photograph.
+assets/room.png — AI-generated editorial spa interior photograph.
+Created for this project with the built-in Imagegen tool.
+Both images are local files; no remote photo services are required.
+They illustrate a fictional portfolio concept and are not photographs
+of a real business or verified staff members.
+
+Body map: original code-native interactive SVG in app.js.
+Favicon: original code-native SVG.
+Gift card: code-generated SVG with user text escaped before export.
+
+GENERATION PROMPTS
+
+HERO
+Wide editorial photograph for a premium wellness website, 1536x1024. Fully clothed adult woman wearing a high-neck long-sleeved opaque beige linen blouse seated upright in a chair, eyes gently closed, a professional therapist in dark uniform standing behind gently resting hands on her CLOTHED shoulders. All torsos completely clothed. A relaxed professional chair massage setting, no massage table. Subject on right side, left half atmospheric dark space for title. Luxurious dark walnut spa interior, amber candlelight, soft foliage and beige curtains in the background. Elegant cinematic photography, rich espresso shadows, warm gold light. No writing, no branding, no UI.
+
+ROOM
+Use case: photorealistic-natural. Asset type: actual website interior background photograph no UI. Cinematic boutique massage room, wide 1536x1024 photograph. Single taupe linen massage bed, rolled warm towels, small amber oil bottle on side tray, sculptural ceramic vase with olive leaves, dark limewash wall, many small candles in recessed alcoves, softly draped curtains, moody amber lighting and nearly black warm brown shadows, architectural digest editorial composition, premium intimate understated retreat. Realistic exquisite textures. No people, no text, no logo, no border.
